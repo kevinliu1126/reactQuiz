@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MultiButton from './Cgu_multibuttom'
 import HelloCGU from './Hello_cgu';
