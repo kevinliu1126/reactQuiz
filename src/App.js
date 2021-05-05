@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import multiButton from './Cgu_multibuttom'
+import MultiButton from './Cgu_multibuttom'
 import HelloCGU from './Hello_cgu';
 
 /*function App() {
@@ -25,13 +25,14 @@ import HelloCGU from './Hello_cgu';
 }*/
  
   function App() {
+    
     return (
       <div className="App">
         <div>
           {HelloCGU()}
         </div>
         <div>
-          {multiButton(10) }
+          {MultiButton(10)}
         </div>
       </div>
     );
